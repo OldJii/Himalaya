@@ -87,6 +87,8 @@ public class RecommendPresenter implements IRecommendPresenter {
     private void handlerRecommendResult(List<Album> albumList) {
         //通知ui更新
         if (albumList != null) {
+//            //测试，内容为空
+//            albumList.clear();
             if (albumList.size() == 0) {
                 for (IRecommendViewCallback callback : mCallbacks) {
                     callback.onEmpty();

@@ -1,4 +1,4 @@
-package com.sunofbeaches.himalaya.views;
+package com.example.himalaya.views;
 
 import android.content.Context;
 import android.graphics.Canvas;
